@@ -1,2 +1,53 @@
 # E-commerce-Analytics-Dashboard-Power-BI
-This Power BI project provides a comprehensive analysis of e-commerce business performance, helping stakeholders track sales, customer behavior, profit trends, and product performance.
+
+This Power BI project offers a comprehensive analysis of e-commerce business performance, enabling stakeholders to track sales, customer behaviour, profit trends, and product performance.
+
+---
+
+## 🚀 Project Overview
+
+This dashboard delivers actionable insights for decision-making across:
+
+- 📦 **Order & Shipping Analysis**
+- 🛍️ **Product Category Insights**
+- 👥 **Customer Demographics & Segmentation**
+- 💰 **Sales & Profitability Trends**
+- 🕒 **Monthly Performance Tracking**
+- 🌍 **Region-wise Revenue Visualization**
+
+---
+
+## 📂 Files in Repository
+
+| File | Description |
+|------|-------------|
+| `E-Commerce Analytics Dashboard.pbix` | Power BI report file |
+| `data/` | Source dataset (CSV/Excel/SQL export) |
+
+---
+
+## 📁 Data Source
+
+Dataset used: **Sample - Superstore**  
+Format: CSV/Excel  
+(If using a public dataset, add the link here)
+
+---
+
+## 🧠 Key Features
+
+- 📈 Interactive KPI Cards  
+- 🔄 Filters / Slicers (Category, Region, Customer, Date)
+- 🕹️ RESET Button
+- 📊 Visuals: Line Chart, Bar Chart, Donut Chart, Table, etc
+- 🧮 DAX Measures for Calculation
+
+---
+
+## 🧩 DAX Measures/Columns Used
+
+DimDate = CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date]))
+Yr-Month = FORMAT(DimDate[Date] , "YYYY-MMM")
+Left few char = LEFT(Orders[Product Name], 13)  
+Manager2 = RELATED(People[Person])
+
