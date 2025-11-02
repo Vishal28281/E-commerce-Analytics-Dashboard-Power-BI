@@ -51,3 +51,29 @@ Yr-Month = FORMAT(DimDate[Date] , "YYYY-MMM")
 Left few char = LEFT(Orders[Product Name], 13)  
 Manager2 = RELATED(People[Person])
 
+----
+
+🔧 Tools & Tech Used
+
+1. Microsoft Power BI
+
+2. Power Query
+
+3. DAX
+
+4. Data Modelling (Star Schema)
+
+✅ Output Benefits
+
+✔️ Understand business performance
+✔️ Identify high-value customers & products
+✔️ Track profit & sales trends over time
+✔️ Support marketing & inventory planning
+
+---
+
+🧑‍💻 Author
+
+Vishal jadhav
+📧 Email: Jadhavvishal7044@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/vishal-jadhav-895886212/
